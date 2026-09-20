@@ -2,6 +2,16 @@
 
 Ce dépôt présente un **Proof of Concept** permettant de transformer des fichiers **EAD/XML** décrivant des fonds d'archives hiérarchiques en ressources pouvant être importées dans **Lodex**, soit en JSON lines.
 
+## Exemples
+
+Deux structures EAD/XML différentes sont actuellement présentées dans ce POC :
+
+- [Exemple 1 — EAD minimal](./examples/ead-minimal/README.md)  
+  Traitement d'un fichier EAD comportant un `archdesc` et un seul niveau de composants `c`.
+
+- [Exemple 2 — EAD à trois niveaux de composants](./examples/ead-3-niveaux/README.md)  
+  Traitement d'un fichier EAD comportant trois niveaux de composants `c01`, `c02` et `c03`, avec conservation des relations hiérarchiques.
+
 ## Objectif
 
 Un document EAD peut contenir une structure hiérarchique de ce type :  
